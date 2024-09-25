@@ -1,0 +1,5 @@
+- name: docker_php
+  docker_image:
+    path: ../php
+    name: my_php_app
+    tag: latest

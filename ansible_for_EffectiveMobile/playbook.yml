@@ -1,0 +1,7 @@
+---
+- name: Deploy for effectiveMobile test
+  hosts: webserver
+  become: yes
+  roles:
+    - webserver
+    - php
